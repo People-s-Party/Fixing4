@@ -5,7 +5,6 @@ using UnityEngine;
 public class EventGenerader : MonoBehaviour
 {
     public Transform PrefabForEvent;
-    public Transform MainObject;
     private void OnEnable()
     {
         Messenger.AddListener<string>(Events.EventHappened, MakeEvent);
@@ -16,10 +15,10 @@ public class EventGenerader : MonoBehaviour
     }
     void MakeEvent(string name)
     {
-        if(name == "heart")
+        if(name == "heart" && transform.name=="Stage1-left")
         {
             Vector3 Place = new Vector3(-4.8f, 2.14f);
-            Instantiate(PrefabForEvent,Place,Quaternion.identity,MainObject);
+            Instantiate(PrefabForEvent,Place,Quaternion.identity,transform);
             Messenger.Broadcast<string>(Events.Dialogue, "AfterBraveHeart");
             
         }
@@ -28,7 +27,7 @@ public class EventGenerader : MonoBehaviour
             Vector3 Place = new Vector3(-8.0f, -5.75f);
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
 
-        }*/
+        }
         if(name == "breadbw")
         {
             Vector3 Place = Vector3.zero;
@@ -38,6 +37,6 @@ public class EventGenerader : MonoBehaviour
         {
             Vector3 Place = Vector3.zero;
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
-        }
+        }*/
     }
 }
