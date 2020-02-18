@@ -8,13 +8,10 @@ public class PassDoorOpen : MonoBehaviour
     public bool[] activecount;
     public string doorname;
     public bool active;
-    // Start is called before the first frame update
     void Start()
     {
         activecount = new bool[needs.Length];
     }
-
-    // Update is called once per frame
     void Update()
     {
         bool open =true;
@@ -36,12 +33,11 @@ public class PassDoorOpen : MonoBehaviour
     }
     void Connect(string thisname, string thatname)
     {
-        if (thisname == doorname) 
+        if (thisname == doorname)
             for (int i = 0; i < needs.Length; i++)
             {
                 if (thatname == needs[i]) activecount[i] = true;
             }
-
     }
     void Connectoff(string thisname, string thatname)
     {
@@ -51,5 +47,4 @@ public class PassDoorOpen : MonoBehaviour
                 if (thatname == needs[i]) activecount[i] = false;
             }
     }
-
 }

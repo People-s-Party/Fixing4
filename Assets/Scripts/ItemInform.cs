@@ -111,6 +111,31 @@ public class ItemInform : MonoBehaviour
                     if(!isEntered) Messenger.Broadcast<string>(Events.Dialogue, dialogueNum);
                 }
             }
+            if(itemtype == 3)
+            {
+                if (needName == "")
+                {
+                    GetComponent<ChangeSprite>().Changesprite();
+                    Messenger.Broadcast<string>(Events.EventHappened, name);
+                    needName = "Not aviable";
+                }
+                else
+                {
+                    bool haschanged = false;
+                    for (int i = 1; i < 8; i++)
+                    {
+                        GameObject invTemp = GameObject.Find("Inv" + i);
+                        if (needName == invTemp.GetComponent<InventoryInform>().itemName)
+                        {
+                            haschanged = true;
+                            GetComponent<ChangeSprite>().Changesprite();
+                            Messenger.Broadcast<string>(Events.EventHappened, name);
+                            needName = "Not aviable";
+                        }
+                    }
+                    if (!haschanged) Messenger.Broadcast<string>(Events.Dialogue, dialogueNum);
+                }
+            }
         }
     }
 }

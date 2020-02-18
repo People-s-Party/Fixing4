@@ -22,6 +22,12 @@ public class EventGenerader : MonoBehaviour
             Messenger.Broadcast<string>(Events.Dialogue, "AfterBraveHeart");
             
         }
+        if(name == "BoxGenerader" && transform.name == "Stage3-down")
+        {
+            Debug.Log("a");
+            Vector3 Place = new Vector3(-4.8f, 2.14f);
+            Instantiate(PrefabForEvent, Place, Quaternion.identity, transform);
+        }
         /*if (name == "CodeH")
         {
             Vector3 Place = new Vector3(-8.0f, -5.75f);
