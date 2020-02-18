@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   needs:
-  - Press00
+  - Stage3-rightDoorRight
   activecount: 
   doorname: ClosedDoor01
   active: 0
