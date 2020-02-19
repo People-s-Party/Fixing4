@@ -8,6 +8,6 @@ public class EventDoorOpen : MonoBehaviour
     void Update()
     {
         if (GameObject.Find(doorID).GetComponent<PassDoorOpen>().active) gameObject.GetComponent<ItemInform>().needName = "";
-        else gameObject.GetComponent<ItemInform>().needName = "Qifei";
+        else gameObject.GetComponent<ItemInform>().needName = "not avaliable";
     }
 }

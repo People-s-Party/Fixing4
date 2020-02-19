@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightcode: 0
-  connection: RD Door? 2
+  connection: S200
 --- !u!1 &363285764
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightcode: a
-  connection: RD Door? 2
+  connection: S200
 --- !u!1 &598559863
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightcode: h
-  connection: RD Door? 2
+  connection: S200
 --- !u!1001 &1284170092
 PrefabInstance:
   m_ObjectHideFlags: 0

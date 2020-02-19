@@ -33,7 +33,7 @@ public class PassDoorOpen : MonoBehaviour
     }
     void Connect(string thisname, string thatname)
     {
-        if (thisname == doorname)
+        if (thisname == name)
             for (int i = 0; i < needs.Length; i++)
             {
                 if (thatname == needs[i]) activecount[i] = true;
@@ -41,7 +41,7 @@ public class PassDoorOpen : MonoBehaviour
     }
     void Connectoff(string thisname, string thatname)
     {
-        if (thisname == doorname)
+        if (thisname == name)
             for (int i = 0; i < needs.Length; i++)
             {
                 if (thatname == needs[i]) activecount[i] = false;
