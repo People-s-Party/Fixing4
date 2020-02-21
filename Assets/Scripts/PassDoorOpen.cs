@@ -6,7 +6,6 @@ public class PassDoorOpen : MonoBehaviour
 {
     public string[] needs;
     public bool[] activecount;
-    public string doorname;
     public bool active;
     void Start()
     {
@@ -15,11 +14,12 @@ public class PassDoorOpen : MonoBehaviour
     void Update()
     {
         bool open =true;
-        foreach (bool i in activecount)
+        for (int i = 0; i < activecount.Length; i++)
         {
-            if (!i) open = false;
+            if (!activecount[i]) open = false;
         }
-        if (open) active = true;
+        if (!open) active = false;
+        else active = true;
     }
     private void OnEnable()
     {

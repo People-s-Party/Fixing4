@@ -320,7 +320,7 @@ Transform:
   m_GameObject: {fileID: 457814477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.17, y: -3.82, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1675135192}
   m_RootOrder: 4
@@ -389,8 +389,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4786912a1130ab6449c605b5de274852, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 42d8d7b76118d4e4890f302b1eb78fdf, type: 3}
+  m_Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -429,8 +429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 4786912a1130ab6449c605b5de274852, type: 3}
-  - {fileID: 21300000, guid: 4fcf10db4ce204b4299c9fd221a278e7, type: 3}
+  - {fileID: 21300000, guid: 42d8d7b76118d4e4890f302b1eb78fdf, type: 3}
+  - {fileID: 21300000, guid: e60ca9ca2911b5b46b1a01b7afa6bf77, type: 3}
 --- !u!1 &592251663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
@@ -521,6 +521,16 @@ PrefabInstance:
         type: 3}
       propertyPath: needName
       value: not avaliable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: sceneName
+      value: Stage3-right2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: dialogueNum
+      value: Locked
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}

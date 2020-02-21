@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 38092aa24a528ff49bbf6f5021fd1f0b, type: 3}
+  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
   - {fileID: 21300000, guid: f6c1a4d41198a26459e44658ed7cab3a, type: 3}
   - {fileID: 21300000, guid: 67585cc7665402c42935b7f81210bf4e, type: 3}
   - {fileID: 21300000, guid: ccf176e39db80214fb0080272734b702, type: 3}
@@ -316,7 +316,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b27c6f5bd167e1149aefb1072dc2125f, type: 3}
   - {fileID: 21300000, guid: 4283d0cd21ddaa949ae49632bb7442e1, type: 3}
   - {fileID: 21300000, guid: d2f05b0d48e663348875fed70bc4b542, type: 3}
-  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
 --- !u!212 &255493232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -378,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c7a870cbf2dfd45bffdbc0b9be9e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightcode: 0
+  rightcode: o
   connection: S200
 --- !u!1 &363285764
 GameObject:
@@ -470,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 38092aa24a528ff49bbf6f5021fd1f0b, type: 3}
+  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
   - {fileID: 21300000, guid: f6c1a4d41198a26459e44658ed7cab3a, type: 3}
   - {fileID: 21300000, guid: 67585cc7665402c42935b7f81210bf4e, type: 3}
   - {fileID: 21300000, guid: ccf176e39db80214fb0080272734b702, type: 3}
@@ -496,7 +495,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b27c6f5bd167e1149aefb1072dc2125f, type: 3}
   - {fileID: 21300000, guid: 4283d0cd21ddaa949ae49632bb7442e1, type: 3}
   - {fileID: 21300000, guid: d2f05b0d48e663348875fed70bc4b542, type: 3}
-  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
 --- !u!212 &363285769
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -641,7 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 38092aa24a528ff49bbf6f5021fd1f0b, type: 3}
+  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
   - {fileID: 21300000, guid: f6c1a4d41198a26459e44658ed7cab3a, type: 3}
   - {fileID: 21300000, guid: 67585cc7665402c42935b7f81210bf4e, type: 3}
   - {fileID: 21300000, guid: ccf176e39db80214fb0080272734b702, type: 3}
@@ -667,7 +665,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b27c6f5bd167e1149aefb1072dc2125f, type: 3}
   - {fileID: 21300000, guid: 4283d0cd21ddaa949ae49632bb7442e1, type: 3}
   - {fileID: 21300000, guid: d2f05b0d48e663348875fed70bc4b542, type: 3}
-  - {fileID: 21300000, guid: 04049b75ae88dfb4cae785ba4639ead1, type: 3}
 --- !u!212 &613335362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -947,12 +944,12 @@ PrefabInstance:
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.46
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.15687019
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}

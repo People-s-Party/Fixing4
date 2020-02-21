@@ -405,8 +405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1668db9f74766aa4a803d399ee559f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabForEvent: {fileID: 1077226277165207476, guid: 505a3d2957caf1a409aabb41366439c3,
-    type: 3}
+  PrefabForEvent:
+  - {fileID: 1077226277165207476, guid: 505a3d2957caf1a409aabb41366439c3, type: 3}
 --- !u!4 &883136090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2413047774403550127, guid: 4a274c4cd4e0c8f4198a1061cbfcf7c9,

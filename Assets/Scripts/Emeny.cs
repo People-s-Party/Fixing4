@@ -5,11 +5,11 @@ using UnityEngine;
 public class Emeny : MonoBehaviour
 {
     public float speed = 1.0f;
-    public Vector3 StartPostion;
+    /*public Vector3 StartPostion;
     void Start()
     {
         transform.position = Vector3.MoveTowards(transform.position, StartPostion, 10000);
-    }
+    }*/
     void Update()
     {
         Vector3 playerposition = transform.position;
